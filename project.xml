@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="HelloOpenfl" package="com.sample.helloopenfl" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="HelloOpenfl" />
+
+	<source path="Source" />
+
+	<haxelib name="stablexui" />
+  <haxelib name="openfl" />
+  <haxelib name="actuate" />
+
+	<assets path="Assets" rename="assets" />
+	<assets path="Assets/fonts" rename="fonts" />
+</project>
