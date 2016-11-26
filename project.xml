@@ -3,13 +3,20 @@
 
 	<meta title="HelloOpenfl" package="com.sample.helloopenfl" version="1.0.0" company="Company Name" />
 	<app main="Main" path="Export" file="HelloOpenfl" />
-
+	<certificate team-id="" />
 	<source path="Source" />
 
+	<haxelib name="openfl" />
 	<haxelib name="stablexui" />
-  <haxelib name="openfl" />
-  <haxelib name="actuate" />
+	<haxelib name="actuate" />
+	<haxelib name="facebook" />
+	<haxelib name="msignal" />
 
 	<assets path="Assets" rename="assets" />
 	<assets path="Assets/fonts" rename="fonts" />
+
+	<template path="Templates" />
+
+	<setenv name="FACEBOOK_APP_ID" value="" />
+	<setenv name="FACEBOOK_DISPLAY_NAME" value="HelloOpenfl" />
 </project>

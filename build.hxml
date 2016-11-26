@@ -1,0 +1,7 @@
+-cp Source
+-main Main
+-lib openfl
+-lib facebook
+-lib msignal
+-lib stablexui
+-lib actuate
